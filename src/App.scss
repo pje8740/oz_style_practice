@@ -36,11 +36,6 @@ $gray: rgb(160, 160, 160);
   }
 }
 
-section {
-  @include flex($justify: center, $align: center, $wrap: wrap, $gap: 20px);
-  padding: 20px 40px;
-}
-
 .content-container {
   @include flex($direction: column, $align: flex-start, $gap: 5px);
   img {
