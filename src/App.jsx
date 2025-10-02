@@ -7,18 +7,18 @@ function App() {
   return (
     <main>
       <Header />
-      <section>
+      <Section>
         {contents.map((el) => (
           <Content key={el.id} content={el} />
         ))}
-      </section>
+      </Section>
     </main>
   );
 }
 
 //include flex($justify: center, $align: center, $wrap: wrap, $gap: 20px);
 //padding: 20px 40px;
-const section = styled.section`
+const Section = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
