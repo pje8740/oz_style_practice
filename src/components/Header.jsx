@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default function Header() {
   return (
-    <HeaderContainer>
+    <HeaderContainer className="header-container">
       <h1>OZ코딩스쿨</h1>
       <ul className="menu-container">
         <li>로그인</li>
